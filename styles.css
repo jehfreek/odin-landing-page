@@ -1,0 +1,92 @@
+
+.headertop{
+    display: flex;
+    color: #e5e7eb; 
+    background-color: #1f2937;
+    position: sticky;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.headertop > button {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    transition: hover; 
+    border: 0;
+    opacity: 0.8;
+}
+
+.headertop > button:hover {
+    opacity: 1;
+}
+
+.headertop > .headerlogo {
+    color: white;
+    flex: 1;
+
+}
+
+.afterheadertop{
+    display: flex;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.afterheadertop > img {
+    width: 600px;
+    height: 250px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+.awesome {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.awesome > h1 {
+    font-family: sans-serif;
+
+}
+
+.awesome > button {
+    background-color: #3882f6;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.randominfo{
+    text-align: center;
+}
+
+.indexbody {
+    color: #1f2937;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li > img {
+    width: 150x;
+    height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
