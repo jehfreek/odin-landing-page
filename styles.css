@@ -90,3 +90,64 @@ li > img {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.quote {
+    font-size: 24px;
+    background-color: #e5e7eb; 
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 175px;
+    padding-right:175px;
+    
+
+}
+
+.quote > .quote1 {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: hidden;
+}
+
+.quote > .alan {
+    font-size: 40px;
+    color: #1f2937;
+    margin-top: 10px;
+    margin-left: 40%;
+    
+}
+
+.ending {
+    color: #f9faf8;
+    background-color: #3882f6;
+    height: 8%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex: 2 1;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+
+.ending > .calltoaction {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.ending > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: white 1px solid;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
