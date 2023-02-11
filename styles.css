@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .headertop{
@@ -7,8 +8,7 @@ body {
     color: #e5e7eb; 
     background-color: #1f2937;
     position: sticky;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 0px 15% 0px 15%;
 
 }
 
@@ -43,9 +43,7 @@ body {
 .afterheadertop > img {
     width: 500px;
     height: 250px;
-    margin-top: auto;
-    margin-bottom: 75px;
-    margin-left: 100px;
+    margin: auto 0px 75px 100px;
     border-radius: 25px;
 
 }
@@ -65,10 +63,7 @@ body {
 .awesome > button {
     background-color: #3882f6;
     color: white;
-    padding-top: 6px;
-    padding-bottom: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 6px 20px 8px 20px;
     font-weight: bold;
     border-radius: 8px;
     border: white solid;
@@ -95,8 +90,9 @@ ul {
 li > img {
     width: 150x;
     height: 150px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 25px;
+    border: #3882f6 2px solid;
+    border-radius: 8px;
 }
 
 .quote {
@@ -107,23 +103,20 @@ li > img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 175px;
-    padding-right:175px;
+    padding: 0px 175px 0px 175px;
     
 
 }
 
 .quote > .quote1 {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 0% 20% 0 20%;
     overflow: hidden;
 }
 
 .quote > .alan {
     font-size: 40px;
     color: #1f2937;
-    margin-top: 10px;
-    margin-left: 40%;
+    margin: 10px 0px 0px 40%;
     
 }
 
@@ -132,9 +125,7 @@ li > img {
     background-color: #3882f6;
     height: 8%;
     width: 40%;
-    margin-left: 31%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0px 5% 31%;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -144,9 +135,7 @@ li > img {
 
 
 .ending > .calltoaction {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    margin: 0px 30px 20px 30px;
     flex: 2;
 }
 
@@ -154,10 +143,7 @@ li > img {
     background-color: #3882f6;
     color: white;
     border: white solid;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 6px 8px 6px 8px;
     font-weight: bold;
     border-radius: 8px;
     flex: 1;
